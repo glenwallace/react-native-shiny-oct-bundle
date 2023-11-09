@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author       = package['author']
   
   s.platform     = :ios, "11.0"
-  s.source       = { :git => "https://github.com/daphnefisher/react-native-shiny-oct-bundle.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/glenwallace/react-native-shiny-oct-bundle.git", :tag => "master" }
 
   s.resources  = ["ios/JSResources/main.jsbundle"]
   s.requires_arc = true
